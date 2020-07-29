@@ -1,0 +1,32 @@
+.body1 {
+    background-image: url("Assets/Images/background1.jpg");
+    margin-bottom: 25px;
+}
+
+.mycontainer1 {
+    margin-top: 3rem;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.heading {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.image-resize {
+    height: 350px;
+    width: 350px;
+}
+
+.imgportfolio {
+    margin: 10px;
+}
+
+.imgportfolio:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    transition: .5s;
+}
