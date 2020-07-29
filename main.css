@@ -8,12 +8,18 @@
     border: 1px solid black;
     padding: 20px;
     background-color: white;
+    width: 85%;
 }
 
 .heading {
     margin-top: 2rem;
     color: white;
     text-align: center;
+}
+
+.heading1 {
+    margin-top: 2rem;
+    text-align: left;
 }
 
 .image-resize {
@@ -26,7 +32,25 @@
 }
 
 .imgportfolio:hover {
-    z-index: 1;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.containerabout {
+    background-color: white;
+    height: 10rem;
+    height: auto;
+    width: 75%;
+    border: 1px solid white;
+}
+
+.meimg {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.meimg:hover {
     transform: scale(1.1);
     transition: .5s;
 }
