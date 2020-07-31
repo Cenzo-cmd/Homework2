@@ -47,12 +47,17 @@
     height: auto;
     width: 75%;
     border: 1px solid white;
+    margin-top: 10px;
 }
 
 .meimg {
     float: left;
     width: 200px;
     margin-right: 10px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .meimg:hover {
@@ -69,6 +74,10 @@
 footer img {
     width: 60px;
     padding-right: 10px;
+}
+
+footer img:hover {
+    transform: skew(-10deg);
 }
 
 footer h5 {
