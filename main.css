@@ -65,10 +65,8 @@ img {
     transition: .5s;
 }
 
-.footer1 {
-    text-align: center;
-    margin-top: 10px;
-    background-color: #212529;
+.fade {
+    opacity: 0.5;
 }
 
 footer img {
