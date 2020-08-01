@@ -1,6 +1,13 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
 .body1 {
     background-image: url("./Assets/Images/background1.jpg");
     margin-bottom: 25px;
+    min-height: 100vh;
 }
 
 .navname {
@@ -48,6 +55,8 @@
     width: 75%;
     border: 1px solid white;
     margin-top: 10px;
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 
 .meimg {
@@ -69,15 +78,24 @@ img {
     opacity: 0.5;
 }
 
-footer img {
+.footer img {
     width: 60px;
     padding-right: 10px;
 }
 
-footer img:hover {
+.footer img:hover {
     transform: skew(-10deg);
 }
 
-footer h5 {
+.footer h5 {
+    color: white;
+}
+
+.footer {
+    background-color: #212529;
+    text-align: center;
+}
+
+.footer p {
     color: white;
 }
