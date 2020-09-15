@@ -10,6 +10,14 @@ body {
     min-height: 100vh;
 }
 
+h3 {
+    text-align: center;
+}
+
+.portDiv {
+    text-align: center;
+}
+
 .navname {
     background-color: green;
     padding: 10px;
