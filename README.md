@@ -10,3 +10,7 @@ Technology has always been a passion for me ever since my first computer which r
 I have included some of my projects that I have worked on the past few months under my portfolio page.  Clicking on the image will bring you to a link to view the app.  My email and resume are included in the contant page and I would love to hear what you think!
 
 -Vincent
+
+
+
+https://cenzo-cmd.github.io/Responsive-Portfolio/
