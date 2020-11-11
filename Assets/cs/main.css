@@ -5,7 +5,7 @@ body {
 }
 
 .body1 {
-    background-image: url("/Assets/Images/background1.jpg");
+    background-image: url("../Images/background1.jpg");
     margin-bottom: 25px;
     min-height: 100vh;
 }
