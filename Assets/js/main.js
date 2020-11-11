@@ -9,7 +9,7 @@ $(document).ready(() => {
         const email = $(".emailForm").val().trim();
         const message = $(".messageForm").val().trim();
 
-        if (!name && !email && !message) {
+        if (!name || !email || !message) {
             $("#appendHere").append(`
             <br><h5>Please fill in all fields</h5>`)
             setTimeout(function() {
